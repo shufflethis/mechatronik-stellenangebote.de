@@ -1,0 +1,19 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Thomas Sander",
+  "url": "https://mechatronik-stellenangebote.de/autor/thomas-sander",
+  "jobTitle": "Gruender & Geschaeftsfuehrer",
+  "worksFor": {
+    "@type": "Organization",
+    "name": "mechatronik-stellenangebote.de",
+    "url": "https://mechatronik-stellenangebote.de"
+  },
+  "description": "Gruender von mechatronik-stellenangebote.de - spezialisiertes Jobportal fuer Mechatronik-Stellenangebote.",
+  "knowsAbout": [
+    "Mechatronik",
+    "Personalwesen",
+    "Recruiting",
+    "Jobportale"
+  ]
+}

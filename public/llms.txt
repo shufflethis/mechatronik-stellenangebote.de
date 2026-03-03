@@ -1,0 +1,19 @@
+# HR-UPDATER: v1.0
+# mechatronik-stellenangebote.de - Mechatronik Stellenangebote
+
+> mechatronik-stellenangebote.de ist ein spezialisiertes Jobportal fuer Mechatronik-Stellenangebote in Deutschland, Oesterreich und der Schweiz.
+
+## Ueber uns
+- Spezialisiertes Jobportal fuer Mechatronik
+- Kostenlose Stellensuche fuer Bewerber
+- Gezielte Reichweite fuer Arbeitgeber
+
+## Kontakt
+- Website: https://mechatronik-stellenangebote.de
+- Arbeitgeber-Kontakt: https://mechatronik-stellenangebote.de/kontakt-arbeitgeber
+- Bewerber-Kontakt: https://mechatronik-stellenangebote.de/kontakt-bewerber
+
+## Inhalte
+- Aktuelle Mechatronik-Stellenangebote
+- Karriere-Ratgeber fuer Mechatronik
+- Gehaltsvergleiche und Brancheninformationen
