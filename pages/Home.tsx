@@ -12,6 +12,87 @@ import { Cpu, Settings, Zap } from 'lucide-react';
 const MOCK_JOBS: Job[] = [
   {
     id: '1',
+    title: 'Wagenmeister/in (m/w/d) für den mobilen Dienst als Vorarbeiter/in (m/w/d)',
+    company: 'NORDIC RAIL SERVICE GMBH',
+    location: 'Lübeck',
+    type: 'Vollzeit',
+    description: 'Wagenmeister/in (m/w/d) für den mobilen Dienst als Vorarbeiter/in (m/w/d)',
+    postedAt: '2026-03-08'
+  },
+  {
+    id: '2',
+    title: 'Versicherungs- und Finanzexperte im angestellten Außendienst im Raum Weißenburg/Gunzenhausen (w/m/d)',
+    company: 'HUK-COBURG Versicherungsgruppe',
+    location: 'Weißenburg i. Bayern',
+    type: 'Vollzeit',
+    description: 'Versicherungs- und Finanzexperte im angestellten Außendienst im Raum Weißenburg/Gunzenhausen (w/m/d)',
+    postedAt: '2026-03-08'
+  },
+  {
+    id: '3',
+    title: 'Versicherungs- und Finanzexperte im angestellten Außendienst im Raum Weißenburg/Gunzenhausen (w/m/d)',
+    company: 'HUK-COBURG Versicherungsgruppe',
+    location: 'Nürnberg',
+    type: 'Vollzeit',
+    description: 'Versicherungs- und Finanzexperte im angestellten Außendienst im Raum Weißenburg/Gunzenhausen (w/m/d)',
+    postedAt: '2026-03-08'
+  },
+  {
+    id: '4',
+    title: 'Key Account Manager (m/w/d) - Gebiet Großraum Nürnberg - München',
+    company: 'Sikla GmbH',
+    location: 'Nürnberg',
+    type: 'Vollzeit',
+    description: 'Key Account Manager (m/w/d) - Gebiet Großraum Nürnberg - München',
+    postedAt: '2026-03-08'
+  },
+  {
+    id: '5',
+    title: 'Key Account Manager (m/w/d) - Gebiet Großraum Nürnberg - München',
+    company: 'Sikla GmbH',
+    location: 'München',
+    type: 'Vollzeit',
+    description: 'Key Account Manager (m/w/d) - Gebiet Großraum Nürnberg - München',
+    postedAt: '2026-03-08'
+  },
+  {
+    id: '6',
+    title: 'Techniker/Ingenieur Elektro oder Elektromeister Gebäudetechnik als Projektleiter (m/w/d)',
+    company: 'Andrea Erler Personalberatung',
+    location: 'Straubing',
+    type: 'Vollzeit',
+    description: 'Techniker/Ingenieur Elektro oder Elektromeister Gebäudetechnik als Projektleiter (m/w/d)',
+    postedAt: '2026-03-08'
+  },
+  {
+    id: '7',
+    title: 'Mechatroniker (m/w/d)',
+    company: 'Manpowergroup Deutschland GmbH & Co. KG',
+    location: 'Melle, Wiehengeb',
+    type: 'Vollzeit',
+    description: 'Mechatroniker (m/w/d)',
+    postedAt: '2026-03-07'
+  },
+  {
+    id: '8',
+    title: 'Serviceassistent (m/w/d) Mechatronik',
+    company: 'iw projekt GmbH',
+    location: 'Groß-Gerau',
+    type: 'Vollzeit',
+    description: 'Serviceassistent (m/w/d) Mechatronik',
+    postedAt: '2026-03-06'
+  },
+  {
+    id: '9',
+    title: 'Entwicklungsingenieur Mechatronik (m/w/d)',
+    company: 'EVOMOTIV GmbH',
+    location: 'München',
+    type: 'Vollzeit',
+    description: 'Entwicklungsingenieur Mechatronik (m/w/d)',
+    postedAt: '2026-03-05'
+  },
+  {
+    id: '10',
     title: 'Industriemeister/in - Elektrotechnik oder Mechatronik',
     company: 'workflat Personalservice GmbH',
     location: 'Leverkusen',
@@ -20,7 +101,7 @@ const MOCK_JOBS: Job[] = [
     postedAt: '2026-03-03'
   },
   {
-    id: '2',
+    id: '11',
     title: 'Produktentwickler Mechatronik (m/w/d)',
     company: 'FERCHAU GmbH Niederlassung Rosenheim',
     location: 'Tittmoning',
@@ -29,7 +110,7 @@ const MOCK_JOBS: Job[] = [
     postedAt: '2026-03-03'
   },
   {
-    id: '3',
+    id: '12',
     title: 'Systemingenieur (m/w/d) für Optronik & Mechatronik',
     company: 'FERCHAU GmbH Niederlassung Giessen',
     location: 'Wetzlar',
@@ -38,7 +119,7 @@ const MOCK_JOBS: Job[] = [
     postedAt: '2026-03-03'
   },
   {
-    id: '4',
+    id: '13',
     title: 'Bachelor Mechatronik (m/w/d) - REF2759M',
     company: 'AUMOVIO SE Haupverwaltung',
     location: 'Frankfurt am Main',
@@ -47,7 +128,7 @@ const MOCK_JOBS: Job[] = [
     postedAt: '2026-03-03'
   },
   {
-    id: '5',
+    id: '14',
     title: 'Ingenieur Mechatronik (m/w/d)',
     company: 'FERCHAU GmbH Vertriebsstützpunkt Schwerin',
     location: 'Schwerin, Mecklenburg',
@@ -56,7 +137,7 @@ const MOCK_JOBS: Job[] = [
     postedAt: '2026-03-02'
   },
   {
-    id: '6',
+    id: '15',
     title: 'Systemingenieur Mechatronik (m/w/d)',
     company: 'Orizon GmbH, Unit Aviation',
     location: 'Wetzlar',
@@ -65,7 +146,7 @@ const MOCK_JOBS: Job[] = [
     postedAt: '2026-03-02'
   },
   {
-    id: '7',
+    id: '16',
     title: 'Automatenfachmann/frau (m/w/d) (Fachrichtung Mechatronik)',
     company: 'Löwen Play GmbH',
     location: 'Seesen, Harz',
@@ -74,7 +155,7 @@ const MOCK_JOBS: Job[] = [
     postedAt: '2026-03-02'
   },
   {
-    id: '8',
+    id: '17',
     title: 'Instandhaltungstechniker (m/w/d) Mechatronik',
     company: 'FERCHAU GmbH Niederlassung Erfurt',
     location: 'Eisenach, Thüringen',
@@ -83,7 +164,7 @@ const MOCK_JOBS: Job[] = [
     postedAt: '2026-03-02'
   },
   {
-    id: '9',
+    id: '18',
     title: 'Maschinenbauingenieur Mechatronik (m/w/d)',
     company: 'Orange Engineering GmbH & Co. KG',
     location: 'Kiel',
@@ -92,7 +173,7 @@ const MOCK_JOBS: Job[] = [
     postedAt: '2026-03-01'
   },
   {
-    id: '10',
+    id: '19',
     title: 'Mechatronik(m/w/d)',
     company: 'Amano GmbH Personalmanagement',
     location: 'Karlsruhe, Baden',
@@ -101,7 +182,7 @@ const MOCK_JOBS: Job[] = [
     postedAt: '2026-02-27'
   },
   {
-    id: '11',
+    id: '20',
     title: 'Mechatronik Ingenieur (m/w/d)',
     company: 'Varex Imaging Deutschland AG',
     location: 'Walluf',
@@ -110,7 +191,7 @@ const MOCK_JOBS: Job[] = [
     postedAt: '2026-02-27'
   },
   {
-    id: '12',
+    id: '21',
     title: 'Entwicklungsingenieur Mechatronik (m/w/d)',
     company: 'FERCHAU GmbH Niederlassung Osnabrück',
     location: 'Diepholz',
@@ -119,7 +200,7 @@ const MOCK_JOBS: Job[] = [
     postedAt: '2026-02-26'
   },
   {
-    id: '13',
+    id: '22',
     title: 'Ingenieure (m/w/d) Mechatronik',
     company: 'Oehmichen & Bürgers Industrieplanung GmbH',
     location: 'Aachen',
@@ -128,7 +209,7 @@ const MOCK_JOBS: Job[] = [
     postedAt: '2026-02-25'
   },
   {
-    id: '14',
+    id: '23',
     title: 'Entwicklungsingenieur Mechatronik (m/w/d)',
     company: 'VIRO Berlin GmbH',
     location: 'Berlin',
@@ -137,7 +218,7 @@ const MOCK_JOBS: Job[] = [
     postedAt: '2026-02-24'
   },
   {
-    id: '15',
+    id: '24',
     title: 'Entwicklungsingenieur Mechatronik (m/w/d)',
     company: 'FERCHAU GmbH Niederlassung Kassel',
     location: 'Kassel, Hessen',
@@ -146,94 +227,13 @@ const MOCK_JOBS: Job[] = [
     postedAt: '2026-02-23'
   },
   {
-    id: '16',
+    id: '25',
     title: 'Ingenieur Mechatronik (m/w/d)',
     company: 'FERCHAU GmbH Niederlassung Rostock',
     location: 'Rostock',
     type: 'Vollzeit',
     description: 'Ingenieur Mechatronik (m/w/d)',
     postedAt: '2026-02-23'
-  },
-  {
-    id: '17',
-    title: 'Ingenieur Mechatronik (m/w/d)',
-    company: 'FERCHAU GmbH Niederlassung Elmshorn',
-    location: 'Elmshorn',
-    type: 'Vollzeit',
-    description: 'Ingenieur Mechatronik (m/w/d)',
-    postedAt: '2026-02-20'
-  },
-  {
-    id: '18',
-    title: 'Testingenieur (m/w/d) Mechatronik',
-    company: 'FERCHAU GmbH Niederlassung Friedrichshafen',
-    location: 'Friedrichshafen',
-    type: 'Vollzeit',
-    description: 'Testingenieur (m/w/d) Mechatronik',
-    postedAt: '2026-02-20'
-  },
-  {
-    id: '19',
-    title: 'Entwicklungsingenieur Mechatronik (w/m/d)',
-    company: 'Brunel GmbH NL Rostock',
-    location: 'Rostock',
-    type: 'Vollzeit',
-    description: 'Entwicklungsingenieur Mechatronik (w/m/d)',
-    postedAt: '2026-02-19'
-  },
-  {
-    id: '20',
-    title: 'Mechatronik (m/w/d)',
-    company: 'Knorr-Bremse AG',
-    location: 'München',
-    type: 'Vollzeit',
-    description: 'Mechatronik (m/w/d)',
-    postedAt: '2026-02-19'
-  },
-  {
-    id: '21',
-    title: 'Projektmanager Mechatronik (m/w/d)',
-    company: 'Victoria Consulting GmbH',
-    location: 'Georgensgmünd',
-    type: 'Vollzeit',
-    description: 'Projektmanager Mechatronik (m/w/d)',
-    postedAt: '2026-02-17'
-  },
-  {
-    id: '22',
-    title: 'Entwicklungsingenieur (m/w/d) Mechatronik',
-    company: 'FERCHAU GmbH Niederlassung Nürnberg City',
-    location: 'Nürnberg, Mittelfranken',
-    type: 'Vollzeit',
-    description: 'Entwicklungsingenieur (m/w/d) Mechatronik',
-    postedAt: '2026-02-16'
-  },
-  {
-    id: '23',
-    title: 'Systementwickler (m/w/d) Mechatronik',
-    company: 'FERCHAU GmbH Niederlassung Friedrichshafen',
-    location: 'Friedrichshafen',
-    type: 'Vollzeit',
-    description: 'Systementwickler (m/w/d) Mechatronik',
-    postedAt: '2026-02-16'
-  },
-  {
-    id: '24',
-    title: 'Ingenieur Mechatronik (m/w/d)',
-    company: 'FERCHAU GmbH Niederlassung Heidenheim',
-    location: 'Oberkochen',
-    type: 'Vollzeit',
-    description: 'Ingenieur Mechatronik (m/w/d)',
-    postedAt: '2026-02-13'
-  },
-  {
-    id: '25',
-    title: 'Labortechniker (m/w/d) Mechatronik',
-    company: 'Trio Personalmanagement GmbH',
-    location: 'Pfinztal',
-    type: 'Vollzeit',
-    description: 'Labortechniker (m/w/d) Mechatronik',
-    postedAt: '2026-02-13'
   }
 ];
 
