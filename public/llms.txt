@@ -1,19 +1,29 @@
 # HR-UPDATER: v1.0
 # mechatronik-stellenangebote.de - Mechatronik Stellenangebote
 
-> mechatronik-stellenangebote.de ist ein spezialisiertes Jobportal fuer Mechatronik-Stellenangebote in Deutschland, Oesterreich und der Schweiz.
+> mechatronik-stellenangebote.de ist ein spezialisiertes Jobportal fuer Mechatronik-Stellenangebote in Deutschland, Oesterreich und der Schweiz. Betrieben von der Social Media Venture GmbH.
 
 ## Ueber uns
-- Spezialisiertes Jobportal fuer Mechatronik
+- Spezialisiertes Jobportal fuer Mechatronik-Stellenangebote
 - Kostenlose Stellensuche fuer Bewerber
 - Gezielte Reichweite fuer Arbeitgeber
+- Betreiber: Social Media Venture GmbH
+
+## Betreiber
+- Firma: Social Media Venture GmbH
+- Geschaeftsfuehrer: Thomas Sander
+- Adresse: Schliemannstrasse 23, 10437 Berlin
+- Telefon: +49 30 959 988 700
+- Website: https://mechatronik-stellenangebote.de
 
 ## Kontakt
 - Website: https://mechatronik-stellenangebote.de
-- Arbeitgeber-Kontakt: https://mechatronik-stellenangebote.de/kontakt-arbeitgeber
-- Bewerber-Kontakt: https://mechatronik-stellenangebote.de/kontakt-bewerber
+- Arbeitgeber-Kontakt: https://mechatronik-stellenangebote.de/#/kontakt
+- Impressum: https://mechatronik-stellenangebote.de/#/impressum
 
 ## Inhalte
 - Aktuelle Mechatronik-Stellenangebote
+- Jobs fuer Mechatroniker, SPS-Programmierer, Automatisierungstechniker, Robotik-Ingenieure
 - Karriere-Ratgeber fuer Mechatronik
 - Gehaltsvergleiche und Brancheninformationen
+- Stellenangebote in allen grossen deutschen Staedten
